@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Kanit:ital,wght@0,100;0,400;1,100;1,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:wght@100&family=REM&family=Roboto:ital,wght@0,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@700&display=swap');
+:root{
+    --red:red;
+    --gray:rgb(86, 41, 41);
+}
+*{
+    margin: 0;
+}
+.container{
+    max-width: 1280px; 
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    height: 72px;
+}
+ul {
+   display: flex;
+   list-style: none;
+   gap: 24px;
+}
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    height: 20px;
+    color: white;
+    font-weight: 500;
+    background: var(--red);
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+
+}
+
+.hero h1{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+
+}
+.hero p{
+    
+    font-weight: 600;
+   color: var(--gray);
+
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.herobtn{
+    display: flex;
+    gap: 40px;
+}
+.secondbtn{
+    background: transparent;
+    color: black;
+    border: 1px solid gray;
+}
+
+.shopping{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.brand-icons{
+    display: flex;
+    gap: 16px;
+}
+
